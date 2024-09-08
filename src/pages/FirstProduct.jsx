@@ -60,7 +60,7 @@ const FirstProduct = () => {
         <img
           src={selectedProduct.imagen}
           alt={selectedProduct.nombre || "Nike Air Jordan"}
-          className="product-image"
+          className="product-image-first-product"
         />
       </div>
       <div className="product-details">
