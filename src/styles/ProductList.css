@@ -1,0 +1,100 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .main-container{
+    margin-top: 160px;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .product-status{
+    font-size: 12px;
+    color: #1E65B9;
+  }
+
+  .product-card {
+    background-color: #161F28;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: initial;
+    color: white;
+    height: 220px;
+    position: relative;
+  }
+  
+  .product-image {
+    width: 100%; /* Ajusta las imágenes para ocupar todo el ancho del contenedor */
+    height: 100px;
+    border-radius: 8px;
+  }
+  
+  .product-info {
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    color: #94a3b8;
+    font-size: 16px;
+  }
+
+.container-heart{
+    background-color: #2f4154;
+    width: 23px;
+    height: 21px;
+    border-radius: 50px;
+}
+
+  .heart-icon {
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    font-size: 16px;
+  }
+
+  .price-colors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+ 
+  .color-options {
+    display: flex;
+    gap: 5px;
+  }
+
+  .color-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+
+  /* Colores */
+  .color-circle.yellow {
+    background-color: #F6C954;
+  }
+
+  .color-circle.green {
+    background-color: #A7CAB1;
+  }
+
+  .color-circle.blue {
+    background-color: #5B9EE1;
+  }
+
+  .color-circle.gray {
+    background-color: #656B7E;
+  }
+
+  .color-circle.orange {
+    background-color: #FDFFA7;
+  }

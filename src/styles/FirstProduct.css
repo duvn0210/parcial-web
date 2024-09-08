@@ -1,0 +1,115 @@
+.first-product-container {
+    background-color: #161F28;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-header h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .product-details {
+    background-color: #0F1621;
+    border-radius: 20px;
+    padding: 20px;
+    width: 390px;
+    max-width: 400px;
+    text-align: initial;
+    height: 900px;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 300px;
+    height: 170px;
+  }
+  
+  .best-seller {
+    font-size: 12px;
+    color: #1E65B9;
+    margin-bottom: 10px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 20px;
+  }
+  
+  .product-sizes h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .title-sizes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .size-options {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .size-options span {
+    background-color: #1F2937;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .size-options .selected-size {
+    background-color: #3B82F6;
+  }
+  
+  .text-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .product-price h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .product-price p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .add-to-cart-button {
+    background-color: #3B82F6;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #2563EB;
+  }
+  

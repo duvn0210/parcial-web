@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 
-.login-container {
+.register-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,34 +18,33 @@ body {
     max-width: 400px;
 }
 
-.login-header {
+.register-header {
     text-align: center;
-    margin-bottom: 20px;
 }
 
-.login-header h2 {
+.register-header h2 {
     font-size: 24px;
     margin: 0;
 }
 
-.login-header p {
+.register-header p {
     font-size: 17px;
     color: #707B81;
     margin: 5px 0 15px;
 }
 
-.login-form {
-    padding-top: 50px;
+.register-form {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.login-form label {
+.register-form label {
     font-size: 16px;
     margin-bottom: 8px;
 }
 
-.login-form input {
+.register-form input {
     padding: 15px;
     border: none;
     border-radius: 50px;
@@ -82,7 +81,7 @@ body {
     color: white;
 }
 
-.login-button {
+.register-button {
     margin-top: 20px;
     padding: 14px;
     border: none;
@@ -93,27 +92,27 @@ body {
     cursor: pointer;
 }
 
-.login-button:hover {
+.register-button:hover {
     background-color: #2E68D2;
 }
 
-.signup-link {
+.signin-link {
     font-size: 12px;
     text-align: center;
     margin-top: 20px;
 }
 
-.signup-link a {
+.signin-link a {
     color: #377DFF;
     text-decoration: none;
 }
 
-.signup-link a:hover {
+.signin-link a:hover {
     text-decoration: underline;
 }
 
-.linkSignup{
+.linkSignin{
     position: absolute;
-    right: 80px;
+    right: 100px;
     bottom: 50px;
 }

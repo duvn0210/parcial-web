@@ -1,0 +1,69 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #161F28;
+    color: white;
+  }
+  
+  .content-wrapper {
+    text-align: center;
+    position: relative;
+  }
+  
+  .text-and-image {
+    position: relative;
+  }
+  
+  .nike-text {
+    font-size: 120px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+  }
+  
+  .shoe-image {
+    position: absolute;
+    top: -70px;
+    left: 46%;
+    transform: translateX(-50%);
+    width: 321px;
+  }
+  
+  .title-subtitle {
+    margin-top: 200px; 
+  }
+  
+  .title-subtitle h2 {
+    font-size: 36px;
+    margin-top: -100px;
+    text-align: initial;
+    margin-bottom: 10px;
+  }
+  
+  .title-subtitle p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: initial;
+  }
+  
+  .get-started-button {
+    margin-top: 50px;
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: #1E65B9; 
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .get-started-button:hover {
+    background-color: #174d92; 
+  }
+  
